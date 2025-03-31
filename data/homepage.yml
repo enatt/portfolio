@@ -4,10 +4,10 @@
 showcase:
   enable: true
   image:
-    x: "images/showcase/showcase.jpg"
-    _2x: "images/showcase/showcase@2x.jpg"
+    x: "images/showcase/showcase.JPG"
+    _2x: "images/showcase/showcase@2x.JPG"
   imageMobile:
-    x: "../assets/images/showcase/showcase-mobile.jpg"
+    x: "../assets/images/showcase/showcase-mobile.JPG"
 
   button:
     icon: "icon-linkedin"
