@@ -1,0 +1,70 @@
+## Looking for strings? Check the i18n folder.
+
+# showcase
+showcase:
+  enable: true
+  image:
+    x: "images/showcase/showcase.jpg"
+    _2x: "images/showcase/showcase@2x.jpg"
+  imageMobile:
+    x: "images/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-linkedin"
+    URL: "https://linkedin.com/in/echonattinger"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://linkedin.com/in/echonattinger"
+
+    - icon: "square-github"
+      URL: "https://github.com/enatt"
+
+
+# education
+education:
+  enable: true
+  items:
+    - university: "University of Texas at Austin"
+      year: ""
+      degree: "B.A. Government, Plan II Honors"
+
+    - university: "The University of Chicago"
+      year: ""
+      degree: "M.S. Computational Analysis and Public Policy"
+
+# experience
+## to hiden a button, set the icon to an empty string
+experience:
+  enable: true
+  button:
+    enable: false
+    icon: ""
+  button2:
+    enable: false
+    icon: ""
+  button3:
+    enable: false
+    icon: ""
+
+# Client & Work
+client_and_work:
+  enable: true
+  items:
+  - description: "HELLO?"
+
+# testimonial
+testimonial:
+  enable: false
+
+# contact
+contact:
+  enable: true
+  form:
+    action: "#"
+  button:
+    icon: "icon-email"
+
+# newsletter
+newsletter:
+  enable: false

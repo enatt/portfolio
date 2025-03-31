@@ -1,0 +1,61 @@
+/* You can customize theme styles here */
+:root,
+[data-bs-theme="light"] {
+  --bs-body-bg: #17770b;
+}
+
+body {
+    background-color: #050705;
+ }
+
+/* general */
+b, strong {
+    font-weight: bold !important;
+}
+
+html body ::selection{
+    background-color:#186105;
+    color:#a2e7b3;
+}
+
+p a:hover, span a:hover {
+    color: #186105 !important;
+}
+
+.section li {
+    color: rgba(0, 0, 0, 1) !important;
+}
+
+
+/* header */
+.header .navbar-brand span:first-child{
+    color: #186105 !important;
+    margin-right: 0.2em !important;
+}
+
+.header .container{
+    padding-left: 10px;
+}
+
+.footer__copy {
+    white-space: wrap !important;
+}
+
+/* experience background color */
+.experience.selected a,
+.experience:hover a,
+.experience:active a,
+.experience a:hover,
+.experience a:active {
+    background-color: #186105 !important;
+}
+
+div.experience__company {
+    color: #186105 !important;
+}
+
+/* fix h3 links color */
+section#experience div#main-content h3 a {
+    color: #186105 !important;
+}
+
