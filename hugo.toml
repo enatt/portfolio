@@ -140,5 +140,8 @@ disable = true
 [params.colorTheme.selector.disable]
 footer = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 ## by default we allow override AND automatic selection
