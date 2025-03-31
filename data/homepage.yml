@@ -4,8 +4,8 @@
 showcase:
   enable: true
   image:
-    x: "../assets/images/showcase/showcase.jpg"
-    _2x: "../assets/images/showcase/showcase@2x.jpg"
+    x: "images/showcase/showcase.jpg"
+    _2x: "images/showcase/showcase@2x.jpg"
   imageMobile:
     x: "../assets/images/showcase/showcase-mobile.jpg"
 
