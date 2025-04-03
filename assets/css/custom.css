@@ -1,25 +1,21 @@
 /* You can customize theme styles here */
-:root,
-[data-bs-theme="light"] {
-  --bs-body-bg: #17770b;
-}
-
-body {
-    background-color: #050705;
- }
 
 /* general */
+body {
+    background-color: #90EE90;
+}
+
 b, strong {
     font-weight: bold !important;
 }
 
 html body ::selection{
-    background-color:#186105;
-    color:#a2e7b3;
+    background-color:#6897bb;
+    color:#fff;
 }
 
 p a:hover, span a:hover {
-    color: #186105 !important;
+    color: #6897bb !important;
 }
 
 .section li {
@@ -29,13 +25,20 @@ p a:hover, span a:hover {
 
 /* header */
 .header .navbar-brand span:first-child{
-    color: #186105 !important;
+    color: #0d4b0a !important;
     margin-right: 0.2em !important;
 }
 
 .header .container{
     padding-left: 10px;
 }
+
+@media (max-width: 768px) {
+    .profile-image {
+        margin-bottom: 2em;
+    }
+}
+
 
 .footer__copy {
     white-space: wrap !important;
@@ -47,15 +50,14 @@ p a:hover, span a:hover {
 .experience:active a,
 .experience a:hover,
 .experience a:active {
-    background-color: #186105 !important;
+    background-color: #6897bb !important;
 }
 
 div.experience__company {
-    color: #186105 !important;
+    color: #6897bb !important;
 }
 
 /* fix h3 links color */
 section#experience div#main-content h3 a {
-    color: #186105 !important;
+    color: #6897bb !important;
 }
-

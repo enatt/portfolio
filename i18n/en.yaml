@@ -9,6 +9,10 @@
 - id: "footer_notice"
   translation: "&copy; Echo Nattinger. Powered by <a href='https://gohugo.io/ target='_blank>Hugo</a> using theme <a href='https://github.com/zetxek/adritian-free-hugo-theme' target='_blank'>Adritian</a>"
 
+## Homepage head title
+- id: "head_title"
+  translation: "Echo Nattinger"
+  
 ## Homepage showcase
 - id: "showcase_title"
   translation: "Welcome y'all, I'm Echo 👋"

@@ -111,7 +111,7 @@ target = "assets/js/vendor/bootstrap.bundle.min.js"
 
   # CSS Plugins
   [[params.plugins.css]]
-  URL = "assets/css/custom.css"
+  URL = "css/custom.css"
   [[params.plugins.css]]
   URL = "css/adritian-icons.css"
 
@@ -128,13 +128,9 @@ target = "assets/js/vendor/bootstrap.bundle.min.js"
   URL = "scss/adritian.scss"
 
 
-# theme/color style
-[params.colorTheme]
-color='bs-teal'
-
 ## the following configuration would disable automatic theme selection
-[params.colorTheme.auto]
-disable = true
+##[params.colorTheme.auto]
+##disable = true
 
 ## the following parameter will disable theme override in the footer
 [params.colorTheme.selector.disable]

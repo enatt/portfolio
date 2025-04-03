@@ -1,5 +1,7 @@
 ## Looking for strings? Check the i18n folder.
-
+head:
+  title: "Echo Nattinger | Data Scientist"
+  description: "testing?"
 # showcase
 showcase:
   enable: true
@@ -60,10 +62,16 @@ testimonial:
 # contact
 contact:
   enable: true
+  title: "Contact"
   form:
-    action: "#"
+    action: "https://formspree.io/f/xrbpyyze"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
   button:
     icon: "icon-email"
+    btnText: "Send Message"
 
 # newsletter
 newsletter:
