@@ -1,9 +1,8 @@
 /* You can customize theme styles here */
-
-/* general */
-body {
-    background-color: #90EE90;
+:root {
+    --bs-body-bg: #b7dda1;
 }
+/* general */
 
 b, strong {
     font-weight: bold !important;
